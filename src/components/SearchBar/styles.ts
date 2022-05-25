@@ -3,25 +3,25 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   align-items: center;
-  width: 600px;
-  height: 90px;
+  width: 400px;
+  height: 70px;
   background-color: var(--background-component);
   border-radius: 48px;
-  margin-top: 200px;
-  margin-left: 267px;
+  /* margin-top: 200px;
+  margin-left: 267px; */
   
   button{
     border: none;
     border-radius: 48px;
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
     background-color: var(--background-component-light);
     margin: 10px;
     cursor: pointer;
     
     img{
-      width: 30px;
-      height: 30px;
+      width: 20px;
+      height: 20px;
     }
   }
 
@@ -40,7 +40,7 @@ export const Container = styled.div`
         opacity: 0.3;
         padding-left: 10px;
         font-weight: 400;
-        font-size: 24px;
+        font-size: 18px;
       }
     }
 `;
