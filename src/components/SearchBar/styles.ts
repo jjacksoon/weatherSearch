@@ -32,7 +32,7 @@ export const Container = styled.div`
       outline: none;
       font-size: 18px;
       background-color: transparent;
-      font-size: 24px;
+      /* font-size: 24px; */
       color: var(--text);
 
       ::placeholder{
